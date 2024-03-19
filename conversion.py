@@ -19,7 +19,7 @@ def toggle_unit():
 
 window = tk.Tk()
 window.title("Temperature Converter")
-window.geometry("300x200")
+window.state("zoomed")
 
 title_label = ttk.Label(window, text="Temperature Converter", font=("Arial", 20))
 title_label.pack(pady=10)
